@@ -1,0 +1,24 @@
+{
+  "name": "nyy-cli",
+  "version": "1.2.5",
+  "main": "index.js",
+  "author": "niuyueyang",
+  "private": false,
+  "bin": {
+    "nyy-cli": "./bin/index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^5.0.0",
+    "fs": "0.0.1-security",
+    "fs-extra": "^9.0.0",
+    "inquirer": "^7.1.0",
+    "path": "^0.12.7",
+    "process": "^0.11.10"
+  },
+  "devDependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
