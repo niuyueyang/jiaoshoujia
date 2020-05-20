@@ -10,19 +10,51 @@ module.exports = {
             name: 'type',
             choices:[
                 {
-                    name: 'pc',
+                    name: '微信小程序',
                     value: {
-                        url: 'https://github.com/littleTreeme/vue-web-template.git',
-                        gitName: 'vue-web-template',
-                        val:'pc端模版'
+                        url: 'https://github.com/niuyueyang/miscroXcx.git',
+                        gitName: 'miscroXcx',
+                        val:'微信小程序架构'
                     }
                 },
                 {
-                    name: 'mobile',
+                    name: 'uni',
                     value: {
                         url: '',
-                        gitName: 'vue-web-template',
-                        val:'移动端模版'
+                        gitName: '',
+                        val:''
+                    }
+                },
+                {
+                    name: 'pc端后台模板',
+                    value: {
+                        url: '',
+                        gitName: '',
+                        val:''
+                    }
+                },
+                {
+                    name: '前端微服务（qiankun）vue',
+                    value: {
+                        url: '',
+                        gitName: '',
+                        val:''
+                    }
+                },
+                {
+                    name: '前端微服务（iframe）vue',
+                    value: {
+                        url: '',
+                        gitName: '',
+                        val:''
+                    }
+                },
+                {
+                    name: '前端微服务（single-spa）vue',
+                    value: {
+                        url: '',
+                        gitName: '',
+                        val:''
                     }
                 }
             ]
